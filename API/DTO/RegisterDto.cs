@@ -12,7 +12,7 @@ namespace API.DTO
         public string Username {get;set;}
 
         [Required]
-        [RegularExpression(@"^(?=.*[a-zA-Z])(?=.*\d|.*[\W_]).{8,}$", ErrorMessage = "Password should be at least 8 digits.")]
+        [StringLength(8, MinimumLength=4)]
         
         public string Password{get;set;}
     }
