@@ -30,7 +30,10 @@
               "./node_modules/bootswatch/dist/journal/bootstrap.css",
               "./node_modules/font-awesome/css/font-awesome.css",
               "./node_modules/ngx-toastr/toastr.css",
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/ngx-spinner/animations/line-spin-fade.css" ,
+              "node_modules/ngx-spinner/animations/ball-circus.css",
+              "node_modules/ngx-spinner/animations/ball-scale-ripple-multiple.css" 
             ],
             "scripts": []
           },

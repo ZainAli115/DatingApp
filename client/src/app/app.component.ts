@@ -13,7 +13,7 @@ export class AppComponent implements OnInit{
   title = 'My Project';
   users:any;
 
-  constructor( private accountService: AccountService){}
+  constructor( private accountService: AccountService,){}
   ngOnInit() {
    this.setCurrentUser();
   }
